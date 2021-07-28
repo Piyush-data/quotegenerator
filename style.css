@@ -1,0 +1,92 @@
+body{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: initial;
+    background-attachment: fixed;
+    font-family: 'Lobster', 'cursive';
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 15vmin;
+    padding: 0px;
+}
+.container{
+    margin: 0px auto;
+    padding: 0px 0px;
+}
+.quote-pad{
+    width:50em;
+    height:auto;
+    margin:5em auto 1em auto;
+    border: 1px;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+@media screen and (max-width: 600px) {
+    .quote-pad{
+    width:auto;
+    height: 400px;
+    margin:0px;
+    border: 1px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+     border-radius: 2vmin;
+     border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+     }
+}
+
+#text ,#author{
+    font-size: 5vmin;
+    color: #090213;
+    padding-left: 3vmin;
+    padding-right: 3vmin;
+}
+
+
+    button{
+    width:auto;
+    height: 6vmin;
+    font-size: 5vmin;
+    margin-right: 10vmin;
+    
+    }
+    i{
+        width: 5vmin;
+    }
+
+h4{
+    margin-top: 20vmin;
+    color: black;
+    font-size: 5vmin;
+}
+
+.quote-area{
+    margin-top:3em;
+  }
+  
+  .post1{
+    margin-left:2em;
+    color:#33BBFF;
+  }
+  
+  .quote{
+    margin-right:2em;
+    float:right;
+    color:#33BBFF;
+  }
+  
+  .sign{
+    font-size:2em;
+  }
+  
+  .left{
+    float:left;
+    margin-left:2em;
+  }
+  
